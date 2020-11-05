@@ -7,7 +7,7 @@ class calc_data():
 		
 		#############Experiment data############
 		self.t_data = t_data		#s
-		self.h_data = h_data		#mm
+		self.h_data = h_data		#cm
 		self.P_data = P_data
 		self.T = T	#K
 		self.P_av = np.average(P_data)		#atm
